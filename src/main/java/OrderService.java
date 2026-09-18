@@ -16,7 +16,9 @@ public class OrderService {
         if (customer.validateEmail() || cart.getItemes().isEmpty()) {
             return false;
         }
-
+    return true;
 
     }
+
+
 }

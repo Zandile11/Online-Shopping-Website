@@ -3,18 +3,22 @@ public class Customer {
     private String email;
     private String password;
 
-    public Customer(String email, String password){
-        this.email=email;
-        this.password=password;
+    public Customer(String email, String password) {
+        this.email = email;
+        this.password = password;
     }
 
-    public String getEmail(){
+    public String getEmail() {
         return email;
     }
 
-    public String getPassword(){
+    public String getPassword() {
         return password;
     }
 
-
+    public boolean validateEmail() {
+        return this.email != null && this.email.contains("@");
+    }
 }
+
+
