@@ -194,4 +194,3 @@ There are still many ways this project could be improved in the future, such as:
 ## Author
 
 Created as a school project to practise Java programming, object-oriented programming, and automated testing.
-
